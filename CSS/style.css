@@ -15,4 +15,8 @@ p{
 .italic{
     font-style: italic;
 }
+ h2.emphasis{
+    font-weight: bold;
+ }
+
 
