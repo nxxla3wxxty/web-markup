@@ -18,5 +18,8 @@ p{
  h2.emphasis{
     font-weight: bold;
  }
+ img{
+    size-adjust: 250px;
+ }
 
 
