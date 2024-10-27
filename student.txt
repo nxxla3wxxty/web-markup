@@ -1,5 +1,5 @@
 Student name: Nela Kovacova
 Student number: 723166
 Student class: ITA
-GitHub Repository: your github repository URL
+GitHub Repository: https://github.com/nxxla3wxxty/web-markup
 GitHub Pages URL: your github pages URL
