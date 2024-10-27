@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Nela Kovacova">
+      <title>Contact Page</title>
+      <link rel="stylesheet" type="text/css" href ="css/style.css">
+      <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+      <link href="https://fonts.googleapis.com/css?family=Jomolhari" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Nokora" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navigation">
+      <img class="" src="img/logo.png" alt="Logo">
+      <ul class="nav-list">
+        <li><a href="index.HTML" >Basics</a></li>
+        <li><a href="notation.html" >Notation</a></li>
+        <li><a href="bottom-layer.html" >Bottom Layer</a></li>
+        <li><a href="middle-layer.html" >Middle layer</a></li>
+        <li><a href="top-layer.html" >Top Layer</a></li>
+        <li><a href="contactpage.html" class="selected ">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+    <fieldset>
+      <legend class="orangetxt h1">Contact Us</legend>
+    </fieldset>
+
+    <form action="message.HTML" method="get"> 
+      <strong class="orangebubble border width30 largetext primary-color-light ">If you have any further questions that the website perhaps didn't answer please contact us using the form below.</strong>
+      <label>Title:</label>
+
+      <section class="row">
+        <input type="radio" id="mr" name="title" value="Mr" required >
+        <label for="mr">Mr.</label>
+        <input type="radio" id="ms" name="title" value="Ms">
+        <label for="ms">Ms.</label>
+        <input type="radio" id="mx" name="title" value="Mx">
+        <label for="mx">Mx.</label>
+      </section>
+
+      <section class="row  ">
+        <article class="column padding15 ">
+          <label for="fname">First name:</label >
+          <input type="text" id="fname" name="fname" required>
+        </article>
+        <article class="column padding15 ">
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" required>
+        </article>
+      </section>
+
+      <section class="formfields">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </section>
+
+      <section class="formfields">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+      </section>
+
+      <section class="formfields">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+      </section> 
+      
+      <button type="submit" class="button">Submit</button>
+    </form>
+
+    <footer>
+    <a href="contactpage.html" class="h4 ">Contact Us</a>
+    <p>all rights reserved by N.K. &copy; </p>
+    </footer>
+  </body>
+</html>

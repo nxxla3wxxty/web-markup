@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Nela Kovacova">
+     <title>Top Layer</title>
+     <link rel="stylesheet" type="text/css" href ="css/style.css">
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+     <link href="https://fonts.googleapis.com/css?family=Jomolhari" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nokora" rel="stylesheet">
+   </head>
+   <body>
+        <nav class="navigation">
+            <img src="img/logo.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.HTML">Basics</a></li>
+                <li><a href="notation.html" >Notation</a></li>
+                <li><a href="bottom-layer.html">Bottom Layer</a></li>
+                <li><a href="middle-layer.html">Middle layer</a></li>
+                <li><a href="top-layer.html" class="selected">Top Layer</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <header class="heading"> 
+            <h1>Top Layer</h1>
+        </header>
+        
+        <section class="white ">
+            <header  class=" subheading ">
+                <h2 >Yellow Cross</h2>
+            </header>
+        </section>
+
+        <section class="whitebox ">
+            <p class="width50 paragraph">First you have to make a yellow cross on the top. You can have several starting points. But either way should use the same algorithm for all of them.</p>
+        </section>
+
+        <section class="greenbox ">
+            <img class="width50" src="img/Yellowcross.jpeg" alt="phases of solving yellow cross" title="yellow cross top layer">
+        </section>
+
+       <section class="white">
+        <section >
+            <header  class=" subheading">
+                <h2  >Corners</h2>
+            </header>
+        </section>
+    </section>
+
+        <section class="whitebox ">
+            <p class="whitebox margin-top-bottom-1em width50 paragraph">Now we have to position the yellow corners in the right place, they wont be flipped the right way round like in the bottom layer just yet. It takes an extra step.
+                 Find a piece which is already on the right place, move it to the right-front-top corner then apply the following algorithm to switch the three wrong pieces.
+            </p> 
+        </section>
+
+        <section class="orangebubble border ">
+            <p class="largetext">Use this algorithm:<em> U R U' L' U R' U' L</em></p>
+        </section>
+
+        <section class="greenbox">
+            <img src="img/Corners.jpg" alt="image of rubiks cube solving corners" title="rubiks cube solving corners">
+            <section class="rubikslist">
+                <p >Do this twice to do an inverse rotation of the pieces. If none of the yellow corners is on the right place then execute the algorithm once to get a good piece.</p>
+                <p >Now that the corners are in the right place, we need to rotate them so they match their face.  Move an unsolved corner to the right top front corner. Then execute this move:</p>
+                <p class=" orangebubble border largetext"><em>R' D' R D</em></p>
+            </section>
+        </section>
+
+        <section class=" greenbox padding30">
+            <p class="width30">You might have to do it two or four times depending on the position of the colours. When it is in the right place. Move another unsolved piece into the right top corner. And execute this move again till its solved. Do this with all four corners. It will appear as if the cube is fully scrambled but if you continue to do this for all four corners, the cube will eventually be solved.</p>
+            <img   src="img/Solvedcube.jpg" alt="image of a fully solved rubiks cube" title="rubiks cube solved" >
+        </section>
+
+        <footer>
+            <a href="contactpage.html" class="h4">Contact Us</a>
+            <p>all rights reserved by N.K. &copy; </p>
+        </footer>
+    </body>
+</html>
+        

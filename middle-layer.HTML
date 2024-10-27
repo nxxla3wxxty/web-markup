@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Nela Kovacova">
+     <title>Middle Layer</title>
+     <link rel="stylesheet" type="text/css" href ="css/style.css">
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+     <link href="https://fonts.googleapis.com/css?family=Jomolhari" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nokora" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Noto-Serif" rel="stylesheet">
+   </head>
+   <body>
+        <nav class="navigation">
+            <img src="img/logo.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.HTML">Basics</a></li>
+                <li><a href="notation.html" >Notation</a></li>
+                <li><a href="bottom-layer.html">Bottom Layer</a></li>
+                <li><a href="middle-layer.html" class="selected">Middle layer</a></li>
+                <li><a href="top-layer.html">Top Layer</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <header class="heading"> 
+            <h1>Middle Layer</h1>
+        </header>
+        <section class=" orangebox " >
+            <p class="width50 whitetxt paragraph ">In the second layer we will only deal with algorithms. This might get more complicated because if you mess up, all the other progress you have made will be lost. You will have to start from scratch. You will learn two algorithms, the right and left. They are fairly straightforward if you pay attention to the instructions.</p>
+            <p class="width50 whitetxt paragraph ">You should see that the bottom layer is solved, so now we have to will in the edge pieces of the second layer of the cube. The cube below shows a missing edge and which edge needs to replace that missing edge.</p>
+            <p class="width50 whitetxt paragraph ">Align the piece, orange in this case, with the correct center of the middle layer as shown below. Now you see that if you would do the F move with the orange layer then the piece would be in the correct place but would mix up the other pieces on the cube. Use this algorithm to get the edge in the right spot.</p>
+        </section>
+
+        <section class="greenbox">
+            <section class="column">
+                <section class="column orangebubble border width50 largetext ">
+                    <p>When putting the edge on the right side:</p>
+                    <strong>U R U R’ U’ F’ U’ F</strong>
+                </section>
+                <section class="column orangebubble border width50 largetext ">
+                    <p>When putting the edge on the left side:</p>
+                    <strong>U’ L’ U’ L U F U F’</strong>
+                </section>
+            </section>
+            <img src="img/Middlelayer1.jpg" alt="correct alignment of layer" title="image of cube with correct alignment of layer">
+        </section>
+
+        <section class="whitebox margin-top-bottom-1em">
+            <p class="width50 paragraph">Repeat this until all the edges are in the right place. If an edge is in the right place but is flipped the wrong way round you need to do the algorithm twice. You insert a different piece instead of the flipped during the first algorithm and during the second algorithm you put back the correct piece but flipped in the right direction.</p>
+        </section>
+
+        <section class="row margin-top-bottom">
+            <img src="img/Middlelayer2.jpg" alt="incorrect placement of piece" title="image of cube with incorrectly placed piece">
+            <img src="img/Middlelayer3.jpg" alt="solved middle layer" title="image of cube with solved layer" >
+        </section>
+
+        <footer>
+            <a href="contactpage.html" class="h4">Contact Us</a>
+            <p>all rights reserved by N.K. &copy; </p>
+        </footer>
+    </body>
+</html>

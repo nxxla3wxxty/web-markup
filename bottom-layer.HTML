@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author" content="Nela Kovacova">
+     <title>Bottom Layer</title>
+     <link rel="stylesheet" type="text/css" href ="css/style.css">
+     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+     <link href="https://fonts.googleapis.com/css?family=Jomolhari" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Nokora" rel="stylesheet">
+   </head>
+   <body>
+        <nav class="navigation">
+            <img src="img/logo.png" alt="Logo">
+            <ul class="nav-list">
+                <li><a href="index.HTML">Basics</a></li>
+                <li><a href="notation.html" >Notation</a></li>
+                <li><a href="bottom-layer.html" class="selected">Bottom Layer</a></li>
+                <li><a href="middle-layer.html">Middle layer</a></li>
+                <li><a href="top-layer.html">Top Layer</a></li>
+                <li><a href="contactpage.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <header class="heading"> 
+            <h1>How to Solve a 3x3 cube?</h1>
+        </header>
+        <section class="column white">
+            <h2 class=" greenborder">White Layer</h2>
+            <p class="border width50 paragraph">We always start with the bottom layer and build up. Establish your bottom face (white). And make a white cross, the middle cubes of bottom layer must match the middle layer. For a clear understanding look at the picture below. This first phase doesn’t have an algorithm and is more about instinct, you will slowly figure out how the pieces move and how to get them in the right place. At the start you might have to do this with the white face facing up but with more practice you can leave it at the bottom and therefore will be easier for other moves to be completed, no need to flip the cube at all. It might make you faster as well.</p>
+        </section>
+
+        <section class="row margin-top-bottom">
+            <img 
+            src="img/Whitecross1.jpg"
+            alt="image of white layer being solved on cube"
+            title="white layer incorrect"
+            >
+            <img 
+            src="img/Whitecross2.jpg"
+            alt="image of yuxin rubiks cube"
+            title="white layer correct"
+            >
+        </section>
+
+        <article class="whitebox margin-top-bottom-1em">
+            <p class="width50 paragraph">Now we need to put the white corners in the right place. As you may have noticed not only the white has to match but also the other colours of the corner. I would suggest having your white side on the bottom. Twist the top layer so that the corner is aligned with the spot in the bottom layer where the piece is supposed to be.
+            </p>
+        </article>
+
+        <section class="whitebox margin-top-bottom-1em">
+            <p class= "width30 padding15">Then repeat this algorithm until the corner is rotated the right way. You might need to do it once or maybe a few times. Depending on the position of the white piece.
+            </p>
+            <figure>
+                <img 
+                src="img/Whitecross3.jpg"
+                alt="image of White layer solved on cube"
+                title="white layer solved"
+                >
+                <figcaption>First layer solved</figcaption>
+            </figure>   
+           
+        </section>
+
+        <section class="orangebubble border width50">
+            <section class="column">
+                <section class="row margin-top-bottom">
+                    <article class="column border whitebubble width30 largetext">
+                        <p >When the corner is on the right side:</p>
+                        <strong>R U R’ U’</strong>
+                    </article>
+                    <article class="column border whitebubble width30 largetext">
+                        <p >When the corner is on the left side:</p>
+                        <strong>L’ U’ L U</strong>
+                    </article>
+                </section>
+                <p class="whitebubble border width50 largetext">Rotate the cube and repeat these moves until they are all in the right spot.</p>
+            </section>
+        </section>
+
+        <footer>
+            <a href="contactpage.html" class="h4">Contact Us</a>
+            <p>all rights reserved by N.K. &copy; </p>
+        </footer>
+    </body>
+</html>
